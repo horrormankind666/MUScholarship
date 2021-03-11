@@ -1,0 +1,3 @@
+﻿Regular Scholarship	= eligible for regular registration only ( add-ons are not included )
+Full Scholarship	= eligible for all type of registration ( both regular and add ons registration ) 
+

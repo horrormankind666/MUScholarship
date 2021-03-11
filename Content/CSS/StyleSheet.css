@@ -1,0 +1,1958 @@
+﻿/*
+@import url(https://fonts.googleapis.com/css?family=Pridi:200,300,500&subset=thai);
+*/
+/* thai */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Pridi ExtraLight"), local("Pridi-ExtraLight"), url(../Font/Pridi-ExtraLight.ttf) format("truetype");
+    unicode-range: U+0E01-0E5B, U+200B-200D, U+25CC;
+}
+/* vietnamese */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Pridi ExtraLight"), local("Pridi-ExtraLight"), url(../Font/Pridi-ExtraLight.ttf) format("truetype");
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Pridi ExtraLight"), local("Pridi-ExtraLight"), url(../Font/Pridi-ExtraLight.ttf) format("truetype");
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Pridi ExtraLight"), local("Pridi-ExtraLight"), url(../Font/Pridi-ExtraLight.ttf) format("truetype");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* thai */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Pridi Light"), local("Pridi-Light"), url(../Font/Pridi-Light.ttf) format("truetype");
+    unicode-range: U+0E01-0E5B, U+200B-200D, U+25CC;
+}
+/* vietnamese */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Pridi Light"), local("Pridi-Light"), url(../Font/Pridi-Light.ttf) format("truetype");
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Pridi Light"), local("Pridi-Light"), url(../Font/Pridi-Light.ttf) format("truetype");
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Pridi Light"), local("Pridi-Light"), url(../Font/Pridi-Light.ttf) format("truetype");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* thai */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Pridi Medium"), local("Pridi-Medium"), url(../Font/Pridi-Medium.ttf) format("truetype");
+    unicode-range: U+0E01-0E5B, U+200B-200D, U+25CC;
+}
+/* vietnamese */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Pridi Medium"), local("Pridi-Medium"), url(../Font/Pridi-Medium.ttf) format("truetype");
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Pridi Medium"), local("Pridi-Medium"), url(../Font/Pridi-Medium.ttf) format("truetype");
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face
+{
+    font-family: "Pridi";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Pridi Medium"), local("Pridi-Medium"), url(../Font/Pridi-Medium.ttf) format("truetype");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body
+{
+    background: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+.hidden 
+{
+    display: none;
+}
+.font-th
+{
+    font-family: "Pridi", serif;
+}
+.font-en
+{
+    font-family: "Pridi", serif;
+}
+.lang-th,
+.lang-en
+{
+    line-height: 1.6;
+}
+.textbox-numeric
+{
+    text-align: right;
+}
+.textbox-disable
+{
+    background: #CCCCCC;
+    color: #000000;
+}
+.frame-util
+{
+    width: 0px;
+    height: 0px;
+    border: none;
+}
+.ui.container
+{
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.ui.header .icon
+{
+    line-height: 1;
+    font-size: 22px;
+}
+.ui.modal > .content,
+.ui.modal > .actions
+{
+    padding: 15px;
+}
+.ui.modal > .actions
+{
+  border-top: 0px;
+}
+.ui.modal.danger > .content,
+.ui.modal.danger > .actions
+{
+    background: #B82A28;
+    color: #000000;
+}
+.ui.modal.confirm > .content,
+.ui.modal.confirm > .actions
+{
+    background: #00B5AD;
+    color: #000000;
+}
+.ui.modal.info > .content,
+.ui.modal.info > .actions
+{
+    background: #21BA45;
+    color: #000000;
+}
+.dialogpreloading.ui.segment
+{
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+.ui.modal.dialogmessage,
+.ui.modal.dialogconfirm
+{
+    z-index: 3000;
+    width: 100% !important;
+    top: auto;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: auto;
+}
+.ui.modal.dialogform
+{
+    border: 10px solid #9AC3BD;
+}
+.ui.modal.dialogform > .header
+{
+    background: #337AB7;
+    padding: 10px 3px 10px 15px;
+    white-space: nowrap;
+}
+.ui.modal.dialogform > .header .grid .column:first-child
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    color: #FFFFFF;
+}
+.ui.modal.dialogform > .header .ui.grid
+{
+    margin: 0px;
+}
+.ui.modal.dialogform > .header .ui.grid .column
+{
+    padding: 0px;
+}
+.ui.button.btndanger
+{
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FF695E;
+    outline: none;
+    padding: 5px;
+    min-width: 90px;
+}
+.ui.button.btndanger:hover
+{
+    background: #D01919;
+}
+.ui.button.btnconfirm
+{
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #6dffff;
+    outline: none;
+    padding: 5px;
+    min-width: 90px;
+}
+.ui.button.btnconfirm:hover
+{
+    background: #009C95;
+}
+.ui.button.btninfo
+{
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #2ECC40;
+    outline: none;
+    padding: 5px;
+    min-width: 90px;
+}
+.ui.button.btninfo:hover
+{
+    background: #16AB39;
+}
+.ui.stackable.grid
+{
+    width: auto;
+    padding: 0em !important;
+    margin: 0em !important;
+}
+.ui.input input,
+.ui.search.selection.dropdown > input.search,
+.ui.form textarea,
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="time"],
+.ui.form input[type="text"],
+.ui.form input[type="url"]
+{
+    margin: 0px;
+    padding: 0px 7px 0px 7px;
+    height: 36px;
+    line-height: 34px;
+    font-family: "Pridi", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    cursor: default;
+}
+.ui.form .browsefile input[type="text"]
+{
+    text-align: center;
+}
+.ui.form .browsefile .button
+{
+    height: 36px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.ui.form textarea
+{
+    line-height: 1.6;
+}
+.ui.form label
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ui.form .panel-body .preloading-inline
+{
+    padding-bottom: 5px;
+}
+.ui.form.view .fields > .field
+{
+    margin: 0px;
+}
+.ui.dropdown .menu > .item
+{
+    line-height: 1.5;
+    padding: 0px;
+}
+.ui.selection.dropdown
+{
+    font-family: "Pridi", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px 7px 0px 7px;
+    height: 36px;
+    line-height: 34px;
+}
+.ui.selection.dropdown > .dropdown.icon
+{
+    margin-top: 0px;
+    padding-top: 12px;
+    right: 0.8em;
+}
+.ui.selection.dropdown .default.text
+{
+    color: #000000;
+    font-weight: 300;
+    font-size: 16px;
+}
+.ui.selection.dropdown .menu > .item
+{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 7px !important; 
+}
+.ui.selection.dropdown.disabled
+{
+    background: #CCCCCC;
+}
+.ui.search.dropdown > .text
+{
+    width: 100%;
+    padding-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    cursor: default;
+}
+.ui.segments,
+.ui.segments .ui.segment
+{
+    border: none;
+}
+.ui.form.segment
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.ui.form.segment .panel-body
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.ui.form.segment .ui.header
+{
+    padding-left: 13px;
+    padding-right: 11px;    
+}
+.ui.tabular.menu
+{
+    border-bottom: none;
+    background: #F2F2F2;
+    border: 1px solid #D4D4D5;
+}
+.ui.tabular.menu .item
+{
+    padding-left: 12px !important;
+    padding-top: 13px !important;
+    padding-right: 10px !important;
+    padding-bottom: 13px !important;
+    border: none;
+}
+.ui.tabular.menu .item:hover
+{
+    text-decoration: underline;
+}
+.ui.tabular.menu .active.item,
+.ui.vertical.tabular.menu .active.item
+{
+    border: none;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+}
+.ui.vertical.tabular.menu .item,
+.ui.vertical.tabular.menu .active.item
+{
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+.ui.vertical.tabular.menu
+{
+    background: #F2F2F2;
+    border: 1px solid #D4D4D5;
+    margin-bottom: 14px !important;
+}
+.f1
+{
+    font-size: 72px;    
+}
+.f2
+{
+    font-size: 48px;    
+}
+.f3
+{
+    font-size: 36px;    
+}
+.f4
+{
+    font-size: 28px;    
+}
+.f5
+{
+    font-size: 24px;    
+}
+.f6
+{
+    font-size: 22px;    
+}
+.f7
+{
+    font-size: 20px;    
+}
+.f8
+{
+    font-size: 18px;    
+}
+.f9
+{
+    font-size: 16px;    
+}
+.f10
+{
+    font-size: 14px;    
+}
+.f105
+{
+    font-size: 13px;
+}
+.f11
+{
+    font-size: 12px;    
+}
+.f12
+{
+    font-size: 11px;    
+}
+.f13
+{
+    font-size: 10px;    
+}
+.light
+{
+    font-weight: 200;
+}
+.regular
+{
+    font-weight: 300;
+}
+.bold
+{
+    font-weight: 400;
+}
+.white
+{
+    color: #FFFFFF;
+}
+.black
+{
+    color: #000000;
+}
+.blue
+{
+    color: #000099;    
+}
+.red
+{
+    color: #FF0000;
+}
+.opacity05
+{
+    opacity: 0.5;
+}
+.muted
+{
+    color: #989DA0;
+}
+.float-left
+{
+    float: left;
+}
+.float-right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.clearfix:after
+{
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix
+{
+    display:inline-block;
+}
+* html .clearfix
+{
+    height:1%;
+}
+.clearfix
+{
+    display:block;
+}
+.preloading.ui.modal
+{
+    box-shadow: none;
+}
+.button-overflow
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.preloading-inline
+{
+    position: relative;
+    top: 3px;
+}
+.ui.inverted.blue.button,
+.ui.inverted.green.button,
+.ui.inverted.orange.button
+{
+    color: #FFFFFF;
+}
+.navpage .panel
+{
+    background: transparent;
+    padding: 10px 10px 0px 10px;
+}
+.navpage ul
+{
+    position: relative;
+    float: left;
+    left: 50%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.navpage ul li
+{
+    position: relative;
+    display: inline;
+    float: left;
+    right: 50%;    
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;    
+}
+.navpage ul li:last-child
+{
+    border-right: 1px solid #CCCCCC;
+}
+.navpage ul li a,
+.navpage ul li div
+{
+    display: block;
+    width: auto;
+    min-width: 30px;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 5px 7px 5px 7px;
+    text-align: center;
+}
+.navpage ul li a:hover
+{
+    background: #E6E6E6;
+    text-decoration: none;
+}
+.navpage ul li.active div
+{
+    background: #337AB7;
+    color: #FFFFFF;
+}
+.avatar
+{
+    background: url(../Image/BGProfilePicture.png);
+    position: relative;
+    overflow: hidden;
+}
+.avatar.profilepicture
+{
+    background-position: 0px 0px;
+    border: 6px solid #BCBDB8;
+}
+.avatar .watermark
+{
+    width: inherit;
+    height: inherit;
+    background:url(../Image/BGWaterMark.png) repeat;
+    opacity: 0.6;
+    filter: Alpha(Opacity=60);
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.avatar .watermark,
+.avatar img
+{
+    display: none;
+}
+.ui.popup
+{
+    font-family: "Pridi", serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.iform
+{
+    display: table;
+    width: auto;
+}
+.iform .iform-row
+{
+    display: table-row;    
+}
+.iform .iform-col
+{
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+    margin: 0px;    
+}
+.iform .iform-col.label-col .lang
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.iform .iform-col.input-col
+{
+    width: auto;
+}
+.view .iform
+{
+    width: 100%;
+}
+.view .iform-col.label-col
+{
+    word-wrap: break-word;
+    padding-bottom: 7px;
+}
+.view .iform-col.label-col .lang
+{
+    white-space: normal;
+}
+.view .iform-col.input-col
+{
+    width: auto;
+    white-space: normal;
+    word-wrap: break-word;    
+    word-break: break-all;
+    padding-bottom: 7px;
+}
+.input .iform .iform-col.label-col,
+.iform .iform-row.input .iform-col.label-col
+{
+    padding-top: 4px;
+}
+.info-list ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+}
+.info-list ul li
+{
+    text-decoration: none;
+    padding-left: 15px;
+}
+.info-list ul li:before
+{
+    position: absolute;
+    line-height: 1.5;
+    content: "-";
+    color: inherit;
+    left: 0px;
+}
+.ui.table
+{
+    border: none;
+}
+.table tbody td .button
+{
+    padding: 5px 10px 5px 10px;
+}
+.table tbody td .btnstudentcv
+{
+    width: 80px;
+}
+.table tbody td .btnupdate
+{
+    width: 69px;
+}
+.table tbody td.info-list
+{
+    background: #B82A28;
+}
+.table tbody td.info-list ul
+{
+    margin-left: 3px;
+}
+/*
+.table tbody td .ui.form .ui.icon.input > i.icon
+{
+    top: 2px;
+}
+.table tbody td .ui.form .ui.icon.input > input
+{
+    margin-top: 5px !important;
+}
+*/
+.table-title.ui.segments
+{
+    border: none;
+}
+.table-title .ui.segment
+{
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    padding-bottom: 10px;
+}
+.table-title.ui.segments .segment.left.floated
+{    
+    min-width: calc(100% - 180px);
+    max-width: calc(100% - 180px);
+}
+.table-title.ui.segments .segment.right.floated
+{    
+}
+.table-title .button
+{
+    min-width: 172px;
+    max-width: 172px;
+}
+.table-title .btnoption
+{
+    cursor: default;
+    min-width: 159px;
+    max-width: 159px;
+}
+.table-title .btnoption a
+{
+    color: #FFFFFF;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.table-title .btnoption a:hover
+{
+    color: #FF0000;
+}
+.table-title .recordcount
+{
+    /*line-height: 2.55;*/
+    padding-top: 22px;
+    white-space: nowrap;
+}
+.table-title .recordcount.nobtnoption
+{
+    padding-top: 10px;
+}
+.ui.studentcv td
+{
+    background: #2ECC40;
+}
+.ui.studentcv .ui.form .ui.header,
+.ui.studentcv .ui.form .ui.header i.icon
+{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.ui.studentcv .avatar.profilepicture
+{
+    width: 124px;
+    height: 172px;
+}
+.ui.studentcv .avatar .watermark,
+.ui.studentcv .avatar img
+{
+    width: calc(124px - 12px);
+    height: calc(172px - 12px);
+}
+.ui.studentcv .view .iform .iform-col.col1
+{
+    width: 134px;
+    min-width: 134px;
+    padding-right: 10px;
+}
+.ui.studentcv .view .iform .iform-col.col21
+{
+    width: 108px;
+    min-width: 108px;
+}
+.ui.studentcv .list-grade
+{
+    margin-top: 10px;
+    padding: 0px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-top: 1px dashed #016936;
+}
+.ui.studentcv .list-grade .header
+{
+    padding: 5px 0px 3px 0px;
+}
+.ui.studentcv .list-grade .header
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ui.studentcv .list-grade .list-col.col1
+{
+    width: 94px;
+}
+.link-click
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.textalignright
+{
+    text-align: right;
+}
+.textalignleft
+{
+    text-align: left;
+}
+ul.notstyle
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: relative
+}
+ul.notstyle li
+{
+    padding-left: 15px;
+    text-align: justify;
+}
+ul.notstyle li:before
+{
+    position: absolute;
+    content: "•";
+    left: 0px;
+    line-height: 21px;
+}
+#followingmenu,
+#header
+{
+    background-image: url(../Image/BG.png);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#followingmenu .ui.container,
+#header .pointing.menu
+{
+    padding: 2px 0px 2px 15px !important;
+}
+#hefollowingmenu .pointing.menu .mulogo
+{
+    vertical-align: middle;
+}
+#followingmenu .pointing.menu .toc,
+#followingmenu .pointing.menu .systemname,
+#followingmenu .pointing.menu .button-bar,
+#header .pointing.menu .toc,
+#header .pointing.menu .mulogo,
+#header .pointing.menu .systemname,
+#header .pointing.menu .button-bar
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 5px;
+}
+#followingmenu .pointing.menu,
+#header .pointing.menu
+{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+    border-bottom: none;
+    margin: 0px;
+}
+#followingmenu .pointing.menu .systemname,
+#followingmenu .pointing.menu .button-bar,
+#header .pointing.menu .button-bar
+{
+    margin-right: 20px;
+}
+#followingmenu .pointing.menu .lang-active,
+#header .pointing.menu .lang-active
+{
+    padding-right: 7px;
+}
+#header .pointing.menu .toc,
+#followingmenu .pointing.menu .toc
+{
+    position: relative;
+    top: -16px;
+    padding: 0px;
+}
+#followingmenu .pointing.menu .right .dropdown,
+#header .pointing.menu .right .dropdown,
+#followingmenu .pointing.menu .right .lang-active,
+#header .pointing.menu .right .lang-active
+{
+    line-height: 1.4;
+}
+#followingmenu .pointing.menu .right .dropdown .menu,
+#header .pointing.menu .right .dropdown .menu
+{
+    right: 0;
+    left: auto;
+}
+#followingmenu .pointing.menu .right,
+#header .pointing.menu .right
+{
+    padding-right: 0px;
+}
+#followingmenu .menu .button-bar.active,
+#header .menu .button-bar.active
+{
+  border: none;
+  border-bottom: 2px solid #FFCD00;
+}
+#sidebarmenu.ui.menu .item
+{
+    padding: 10px;
+}
+#sidebarmenu.ui.menu .item > i.icon
+{
+    padding-top: 5px;
+}
+#header #main-logosystemname
+{
+    padding: 10px 15px 10px 15px;
+}
+#header .ui.grid > .column
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#header .pointing.menu .mulogo,
+#header .pointing.menu .systemname
+{
+    display: none;
+}
+#body
+{
+    background-image: url(../Image/BGContent.png);
+    margin: 0px;
+    padding: 15px !important;
+}
+#userprofile .ui.menu
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#userprofile .ui.menu .item
+{
+    padding-left: 0px;
+    padding-top: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#bodycontent
+{
+    padding-top: 10px;
+}
+#footer
+{
+    padding: 15px;
+}
+#footer .ui.grid > .column:first-child,
+#footer .ui.grid > .column:nth-child(2)
+{
+    padding-top: 0px;
+}
+#footer .ui.grid > .column:last-child
+{
+    padding-bottom: 0px;
+}
+#list-scholarship .ui.menu .left .item
+{
+    padding-left: 0px;
+}
+#list-registerscholarship table thead th.col5, 
+#list-registerscholarship table tbody td.col5
+{
+    width: 81px;
+    min-width: 81px;
+}
+#list-registerscholarship table thead th.col7, 
+#list-registerscholarship table tbody td.col7
+{
+    width: 91px;
+    min-width: 91px;
+}
+#addupdate-registerscholarship .view .iform .iform-col.label-col,
+#addupdate-managescholarship .view .iform .iform-col.label-col,
+#addupdate-importregisterscholarship .view .iform .iform-col.label-col,
+#addupdate-financescholarshiptypegroupiclsavepeopleapproved .view .iform .iform-col.label-col,
+#addupdate-financescholarshiptypegroupiclclassificationrecipientfinance .view .iform .iform-col.label-col,
+#addupdate-financescholarshiptypegroupiclsavepeoplepaycheque .view .iform .iform-col.label-col,
+#export-reportlistofpeopleapprovedfinancefromicl .view .iform .iform-col.label-col
+{
+    width: 40%;
+}
+#list-registerscholarship table thead th.col1, 
+#list-registerscholarship table tbody td.col1,
+.list-managescholarship table thead th.col1, 
+.list-managescholarship table tbody td.col1,
+.list-managescholarshiptypegroupicl table thead th.col1,
+.list-managescholarshiptypegroupicl table tbody td.col1,
+#list-importregisterscholarship table thead th.col1,
+#list-importregisterscholarship table tbody td.col1,
+#list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col1,
+#list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col1,
+#list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col1,
+#list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col1,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table thead th.col1,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table tbody td.col1,
+#list-financescholarshiptypegroupiclpaycheque table thead th.col1,
+#list-financescholarshiptypegroupiclpaycheque table tbody td.col1,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table thead th.col1,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table tbody td.col1,
+#list-reportlistofpeopleapprovedfinancefromicl table thead th.col1,
+#list-reportlistofpeopleapprovedfinancefromicl table tbody td.col1
+{
+    width: 82px;
+    min-width: 82px;
+}
+#list-registerscholarship table thead th.col2, 
+#list-registerscholarship table tbody td.col2,
+.list-managescholarship table thead th.col2, 
+.list-managescholarship table tbody td.col2,
+.list-managescholarshiptypegroupicl table thead th.col2,
+.list-managescholarshiptypegroupicl table tbody td.col2,
+#list-importregisterscholarship table thead th.col2,
+#list-importregisterscholarship table tbody td.col2,
+#list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col2,
+#list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col2,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table thead th.col2,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table tbody td.col2,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table thead th.col2,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table tbody td.col2
+{
+    width: 45px;
+    min-width: 45px;
+}
+#list-registerscholarship table thead th.col3, 
+#list-registerscholarship table tbody td.col3,
+.list-managescholarship table thead th.col3, 
+.list-managescholarship table tbody td.col3,
+.list-managescholarshiptypegroupicl table thead th.col3,
+.list-managescholarshiptypegroupicl table tbody td.col3,
+#list-importregisterscholarship table thead th.col3,
+#list-importregisterscholarship table tbody td.col3,
+#list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col3,
+#list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col3,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table thead th.col3,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table tbody td.col3,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table thead th.col3,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table tbody td.col3,
+#list-reportlistofpeopleapprovedfinancefromicl table thead th.col2,
+#list-reportlistofpeopleapprovedfinancefromicl table tbody td.col2
+{
+    width: 112px;
+    min-width: 112px;
+}
+.list-managescholarship table thead th.col6,
+.list-managescholarship table tbody td.col6,
+.list-managescholarshiptypegroupicl table thead th.col6,
+.list-managescholarshiptypegroupicl table tbody td.col6,
+#list-importregisterscholarship table thead th.col6,
+#list-importregisterscholarship table tbody td.col6
+{
+    width: 101px;
+    min-width: 101px;
+}
+.list-managescholarshiptypegroupicl table tbody td.col7 .ui.form input[type="text"]
+{
+    width: 120px;
+    min-width: 120px;
+}
+.list-managescholarship table thead th.col7, 
+.list-managescholarship table tbody td.col7
+{
+    width: 135px;
+    min-width: 135px;
+}
+.list-managescholarship table tbody td.col7 .ui.form input[type="text"]
+{
+    height: 32px;
+    line-height: 30px;
+    font-size: inherit;
+}
+.list-managescholarshiptypegroupicl table thead th.col7,
+.list-managescholarshiptypegroupicl table tbody td.col7,
+.list-managescholarship table thead th.col8, 
+.list-managescholarship table tbody td.col8
+{
+    width: 107px;
+    min-width: 107px;
+}
+.list-managescholarship table thead th.col9,
+.list-managescholarship table tbody td.col9,
+.list-managescholarshiptypegroupicl table thead th.col8,
+.list-managescholarshiptypegroupicl table tbody td.col8,
+.list-managescholarshiptypegroupicl table thead th.col9,
+.list-managescholarshiptypegroupicl table tbody td.col9,
+#list-importregisterscholarship table thead th.col7,
+#list-importregisterscholarship table tbody td.col7
+{
+    width: 103px;
+    min-width: 103px;
+}
+#main-managescholarshipstudentcancel .panel-body
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#main-managescholarshipstudentcancel .panel-body .ui.table thead th
+{
+    background: #FE9A76;
+}
+#main-managescholarshipstudentcancel .panel-body .ui.table tbody tr:not(.ui.studentcv) td
+{
+    background: #FFB397;
+}
+#list-managescholarshipstudentcancel .ui.studentcv .view .iform .iform-col.col21
+{
+    width: 130px;
+    min-width: 130px;
+}
+#addupdate-managescholarship .ui.form textarea
+{
+    height: 6.60em;
+    min-height: 6.60em;
+}
+#addupdate-managescholarshiptypegroupicl .ui.studentcv .avatar.profilepicture
+{
+    width: 126px;
+    height: 114px;
+}
+#addupdate-managescholarshiptypegroupicl .ui.studentcv .avatar .watermark,
+#addupdate-managescholarshiptypegroupicl .ui.studentcv .avatar img
+{
+    width: calc(126px - 12px);
+    height: calc(145px - 12px);
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .ui.form input[type="text"]
+{
+    font-size: 14px;
+    height: 30px;
+    line-height: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col1
+{
+    padding-right: 16px;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col3
+{    
+    width: 230px;
+    min-width: 230px;    
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col31
+{
+    width: 126px;
+    min-width: 126px;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col32
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col33
+{
+    display: none;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col41
+{
+    width: 55%;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col42
+{    
+    width: 45%;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-row.input .iform-col.col42
+{
+    padding-right: 0px;
+}
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col33,
+#addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col43
+{    
+    width: 32px;
+    min-width: 32px;
+    padding-left: 7px;
+}
+#main-financescholarshiptypegroupicl .tabular.vertical
+{
+    display: none;
+    margin: 0px;
+}
+#list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col2,
+#list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col2,
+#list-financescholarshiptypegroupiclpaycheque table thead th.col2,
+#list-financescholarshiptypegroupiclpaycheque table tbody td.col2
+{
+    width: 93px;
+    min-width: 93px;
+}
+
+#list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col5,
+#list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col5
+{
+    width: 151px;
+    min-width: 151px;
+}
+#list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col4,
+#list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col4,
+#list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col6,
+#list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col6
+{
+    width: 65px;
+    min-width: 65px;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.orange.segment,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.orange.segment
+{
+    padding-bottom: 0px;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .ui.header,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .ui.header
+{
+    margin-bottom: 0px;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .panel-bodys .ui.dividing.header,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .panel-bodys .ui.dividing.header
+{
+    border-bottom-color: transparent;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .panel-body,
+#search-financescholarshiptypegroupiclsavepeopleapproved,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .panel-body,
+#search-financescholarshiptypegroupiclsavepeoplepaycheque
+{
+    background: #FFFFFF;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col1,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col1
+{
+    width: 50%;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col11
+{
+    width: 106px;
+    min-width: 106px;    
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col21
+{
+    width: 144px;
+    min-width: 144px;     
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col3,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col3
+{
+    text-align: right;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col31,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col31
+{
+    width: 162px;
+    min-width: 162px;
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col32,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col32
+{        
+    white-space: nowrap;
+}
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col11
+{
+    width: 109px;
+    min-width: 109px;    
+}
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col21
+{
+    width: 146px;
+    min-width: 146px;     
+}
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col1,
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col11,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col1,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col11,
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col2,
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col21,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col2,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col21,
+#main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col31,
+#main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col31
+{
+    padding-right: 10px;
+}
+#search-financescholarshiptypegroupiclsavepeopleapproved .panel-body,
+#search-financescholarshiptypegroupiclsavepeoplepaycheque .panel-body
+{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table thead th.col5,
+#list-financescholarshiptypegroupiclclassificationrecipientfinance table tbody td.col5,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table thead th.col5,
+#list-financescholarshiptypegroupiclsavepeoplepaycheque table tbody td.col5,
+#list-reportlistofpeopleapprovedfinancefromicl table thead th.col4,
+#list-reportlistofpeopleapprovedfinancefromicl table tbody td.col4
+{
+    width: 90px;
+    min-width: 90px;
+}
+#list-financescholarshiptypegroupiclpaycheque table thead th.col4,
+#list-financescholarshiptypegroupiclpaycheque table tbody td.col4
+{
+    width: 96px;
+    min-width: 96px;
+}
+#list-reportlistofpeopleapprovedfinancefromicl table thead th.col7,
+#list-reportlistofpeopleapprovedfinancefromicl table tbody td.col7
+{
+    width: 87px;
+    min-width: 87px;
+}
+#list-reportlistofpeopleapprovedfinancefromicl table thead th.col8,
+#list-reportlistofpeopleapprovedfinancefromicl table tbody td.col8,
+#list-reportlistofpeopleapprovedfinancefromicl table thead th.col10,
+#list-reportlistofpeopleapprovedfinancefromicl table tbody td.col10
+{
+    width: 107px;
+    min-width: 107px;
+}
+@media only screen and (max-width: 1130px)
+{
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col1,
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1126px)
+{
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col1,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1062px)
+{
+    #list-reportlistofpeopleapprovedfinancefromicl table thead th.col1,
+    #list-reportlistofpeopleapprovedfinancefromicl table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1044px)
+{
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col6,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col6
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1038px)
+{
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col4, 
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col4
+    {
+        display: none;
+    }
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col5, 
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col5,
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col6, 
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col6
+    {
+        width: auto;
+        min-width: inherit;
+    }
+}
+@media only screen and (max-width: 1017px)
+{
+    .list-managescholarship table thead th.col1, 
+    .list-managescholarship table tbody td.col1
+    {
+        display: none;
+    }
+    #list-financescholarshiptypegroupiclpaycheque table thead th.col1,
+    #list-financescholarshiptypegroupiclpaycheque table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 980px)
+{
+    #list-reportlistofpeopleapprovedfinancefromicl table thead th.col3,
+    #list-reportlistofpeopleapprovedfinancefromicl table tbody td.col3
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 970px)
+{
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col1,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col2,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col1,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col2
+    {
+        width: 50%;
+        min-width: inherit;
+    }
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col2,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col2
+    {
+        text-align: right;
+        padding-right: 0px;
+    }
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col21,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col22,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col21,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col22
+    {
+        width: auto;
+        min-width: inherit;
+    }
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col3,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col3
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 964px)
+{
+    .list-managescholarshiptypegroupicl table thead th.col1,
+    .list-managescholarshiptypegroupicl table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 950px)
+{
+    #followingmenu .pointing.menu .button-bar,
+    #followingmenu .pointing.menu .right .dropdown
+    {
+        display: none
+    }
+    #followingmenu .pointing.menu .toc,
+    #followingmenu .pointing.menu .systemname
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width: 934px)
+{
+    .list-managescholarship table thead th.col4, 
+    .list-managescholarship table tbody td.col4
+    {
+        display: none;
+    }
+    #list-financescholarshiptypegroupiclpaycheque table thead th.col5,
+    #list-financescholarshiptypegroupiclpaycheque table tbody td.col5
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 916px)
+{    
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col5,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col5
+    {
+        display: none;
+    }
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col7,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col7,    
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col8,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col8,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col9,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col9
+    {
+        width: auto;
+        min-width: inherit;
+    }
+    #list-financescholarshiptypegroupiclclassificationrecipientfinance table thead th.col1,
+    #list-financescholarshiptypegroupiclclassificationrecipientfinance table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 907px)
+{    
+    #list-financescholarshiptypegroupiclsavepeoplepaycheque table thead th.col1,
+    #list-financescholarshiptypegroupiclsavepeoplepaycheque table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 882px)
+{
+    .list-managescholarshiptypegroupicl table thead th.col4,
+    .list-managescholarshiptypegroupicl table tbody td.col4
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 850px)
+{
+    #list-reportlistofpeopleapprovedfinancefromicl table thead th.col4,
+    #list-reportlistofpeopleapprovedfinancefromicl table tbody td.col4
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 835px)
+{
+    #list-financescholarshiptypegroupiclclassificationrecipientfinance table thead th.col4,
+    #list-financescholarshiptypegroupiclclassificationrecipientfinance table tbody td.col4
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 828px)
+{
+    #list-registerscholarship table thead th.col1, 
+    #list-registerscholarship table tbody td.col1
+    {
+        display: none;
+    }
+    #list-financescholarshiptypegroupiclpaycheque table thead th.col2,
+    #list-financescholarshiptypegroupiclpaycheque table tbody td.col2
+    {
+        width: 48px;
+        min-width: 48px;
+    }
+    #list-financescholarshiptypegroupiclpaycheque table tbody td.col2 .button
+    {
+        width: 19px;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+    }
+    #list-financescholarshiptypegroupiclpaycheque table tbody td.col2 .button .icon
+    {
+        display: inline-block !important;
+        font-size: 22px;
+        color: #000000;
+        padding-top: 4px;
+    }
+    #list-financescholarshiptypegroupiclpaycheque table tbody td.col2 span.f10
+    {
+        display: none !important;
+    }
+    #list-financescholarshiptypegroupiclsavepeoplepaycheque table thead th.col4,
+    #list-financescholarshiptypegroupiclsavepeoplepaycheque table tbody td.col4
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 796px)
+{
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col9,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col9
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 782px)
+{
+    #list-importregisterscholarship table thead th.col1,
+    #list-importregisterscholarship table tbody td.col1
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 780px)
+{
+    #header .pointing.menu .toc,
+    #header .pointing.menu .mulogo,
+    #header .pointing.menu .systemname
+    {
+        display: block;
+    }
+    #header #main-logosystemname
+    {
+        padding: 0px;
+        display: none;
+    }
+    #header .pointing.menu .button-bar,
+    #header .pointing.menu .right .dropdown
+    {
+        display: none
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    #userprofile .right.menu,
+    #userprofile .right.menu div
+    {
+        width: 100%;
+    }
+    .list-managescholarship table thead th.col5, 
+    .list-managescholarship table tbody td.col5,
+    .list-managescholarshiptypegroupicl table thead th.col5,
+    .list-managescholarshiptypegroupicl table tbody td.col5
+    {
+        display: none;
+    }
+    .list-managescholarship table thead th.col7,
+    .list-managescholarship table tbody td.col7,
+    .list-managescholarshiptypegroupicl table thead th.col8,
+    .list-managescholarshiptypegroupicl table tbody td.col8
+    {
+        width: auto;
+        min-width: inherit;
+    }
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col7, 
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col7
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+    #search-financescholarshiptypegroupiclsavepeopleapproved .ui.form .fields > .two.wide.field,
+    #search-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form .fields > .two.wide.field
+    {
+        margin-bottom: 0px;
+    }  
+}
+@media only screen and (max-width: 760px)
+{
+    #list-reportlistofpeopleapprovedfinancefromicl table thead th.col8,
+    #list-reportlistofpeopleapprovedfinancefromicl table tbody td.col8
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 746px)
+{
+    #list-registerscholarship table thead th.col4, 
+    #list-registerscholarship table tbody td.col4
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    #list-importregisterscholarship table thead th.col4,
+    #list-importregisterscholarship table tbody td.col4
+    {
+        display: none;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col3,
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col4
+    {
+        display: block;
+        width: 100%;
+        min-width: inherit;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col31,
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col41
+    {
+        width: 50%;
+        min-width: 0px;
+        text-align: right;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col32,
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col42
+    {
+        width: 50%;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col32
+    {
+        padding-right: 0px;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col33
+    {
+        display: table-cell;
+    }
+}
+@media only screen and (max-width: 655px)
+{
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col2,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col2
+    {
+        width: 48px;
+        min-width: 48px;
+    }
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col2 .button
+    {
+        width: 19px;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+    }
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col2 .button .icon
+    {
+        display: inline-block !important;
+        font-size: 22px;
+        color: #000000;
+        padding-top: 4px;
+    }
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col2 span.f10
+    {
+        display: none !important;
+    }
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table thead th.col7,
+    #list-financescholarshiptypegroupiclapprovalreceivefinance table tbody td.col7
+    {
+        width: 103px;
+        min-width: 103px;
+    }
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col1,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col2,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col3,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col1,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col2,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col3
+    {
+        display: block;
+        width: 100%;
+        min-width: inherit;
+    } 
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col11,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col21,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col31,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col11,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col21,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col31
+    {
+        width: 50%;
+        min-width: 0px;
+        text-align: right;
+    }
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col12,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col22,
+    #main-financescholarshiptypegroupiclsavepeopleapproved .ui.form.orange .view .iform .iform-col.col32,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col12,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col22,
+    #main-financescholarshiptypegroupiclsavepeoplepaycheque .ui.form.orange .view .iform .iform-col.col32
+    {
+        width: 50%;
+        text-align: left;
+    }
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col5, 
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col5,
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col6, 
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col6
+    {
+        display: none;
+    }
+    #list-reportlistofpeopleapprovedfinancefromicl table thead th.col7,
+    #list-reportlistofpeopleapprovedfinancefromicl table tbody td.col7
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 636px)
+{
+    .navpage ul li.page-number
+    {
+        display: none;
+    }
+    .list-managescholarship table thead th.col6, 
+    .list-managescholarship table tbody td.col6
+    {
+        display: none;
+    }    
+}
+@media only screen and (max-width: 619px)
+{
+    .list-managescholarshiptypegroupicl table thead th.col6,
+    .list-managescholarshiptypegroupicl table tbody td.col6
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 562px)
+{
+    #list-registerscholarship table thead th.col6, 
+    #list-registerscholarship table tbody td.col6
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 537px)
+{
+    .list-managescholarship table thead th.col9, 
+    .list-managescholarship table tbody td.col9
+    {
+        display: none;
+    }    
+    #list-importregisterscholarship table thead th.col5,
+    #list-importregisterscholarship table tbody td.col5
+    {
+        display: none;
+    }
+    #list-importregisterscholarship table thead th.col7,
+    #list-importregisterscholarship table tbody td.col7
+    {
+        width: auto;
+        min-width: inherit;
+    }
+}
+@media only screen and (max-width: 518px)
+{
+    .list-managescholarshiptypegroupicl table thead th.col9,
+    .list-managescholarshiptypegroupicl table tbody td.col9
+    {
+        display: none;
+    }
+    #main-financescholarshiptypegroupicl .tabular.horizontal
+    {
+        display: none;
+    }
+    #main-financescholarshiptypegroupicl .tabular.vertical
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width: 475px)
+{
+    #list-registerscholarship table thead th.col5, 
+    #list-registerscholarship table tbody td.col5
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 464px)
+{
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col31,
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col41
+    {
+        width: 126px;
+        min-width: 126px;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col32,
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col42
+    {    
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 457px)    
+{
+    #list-financescholarshiptypegroupiclsavepeopleapproved table thead th.col9,
+    #list-financescholarshiptypegroupiclsavepeopleapproved table tbody td.col9
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 440px)
+{
+    #main-importregisterscholarship-btndownload
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 326px)
+{
+    #addupdate-managescholarshiptypegroupicl .ui.studentcv .avatar.profilepicture
+    {
+        width: 80px;
+        height: 111px;
+    }
+    #addupdate-managescholarshiptypegroupicl .ui.studentcv .avatar .watermark,
+    #addupdate-managescholarshiptypegroupicl .ui.studentcv .avatar img
+    {
+        width: calc(80px - 12px);
+        height: calc(111px - 12px);
+    }
+    #addupdate-managescholarshiptypegroupicl .ui.studentcv .view .iform .iform-col.col1
+    {
+        width: 80px;
+        min-width: 80px;
+    }
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col31,
+    #addupdate-managescholarshiptypegroupicl .view .iform .iform-col.col41
+    {
+        width: 80px;
+        min-width: 80px;
+    }
+}
+@media only screen and (max-width: 264px)
+{
+    .navpage ul li.active div
+    {
+        display: none;
+    }
+}
