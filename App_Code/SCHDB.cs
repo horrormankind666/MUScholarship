@@ -72,7 +72,7 @@ public class SCHDB
             new SqlParameter("@username",       _username),
             new SqlParameter("@systemGroup",    _systemGroup),
             new SqlParameter("@faculty",        (_paramSearch.ContainsKey("FacultyId").Equals(true) ? _paramSearch["FacultyId"] : String.Empty)),
-            new SqlParameter("@distinction",    (_paramSearch.ContainsKey("Distinction").Equals(true) ? _paramSearch["Distinction"] : String.Empty)));
+            new SqlParameter("@joinProgram",    (_paramSearch.ContainsKey("JoinProgram").Equals(true) ? _paramSearch["JoinProgram"] : String.Empty)));
 
         return _ds;
     }
@@ -85,7 +85,7 @@ public class SCHDB
             new SqlParameter("@degreeLevel",    (_paramSearch.ContainsKey("DegreeLevelId").Equals(true) ? _paramSearch["DegreeLevelId"] : String.Empty)),
             new SqlParameter("@faculty",        (_paramSearch.ContainsKey("FacultyId").Equals(true) ? _paramSearch["FacultyId"] : String.Empty)),
             new SqlParameter("@program",        (_paramSearch.ContainsKey("ProgramId").Equals(true) ? _paramSearch["ProgramId"] : String.Empty)),
-            new SqlParameter("@distinction",    (_paramSearch.ContainsKey("Distinction").Equals(true) ? _paramSearch["Distinction"] : String.Empty)));
+            new SqlParameter("@joinProgram",    (_paramSearch.ContainsKey("JoinProgram").Equals(true) ? _paramSearch["JoinProgram"] : String.Empty)));
                 
         return _ds;
     }
